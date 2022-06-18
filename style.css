@@ -1,0 +1,96 @@
+/* header*/
+header{
+    display: flex;
+    
+}
+/*Nav bar */
+#navbar {
+    width: 100%;
+    padding: 12px;
+    font-size: 30px;
+    font-family: arial;
+    background-image: url("img iot.jpg");
+    background-repeat: no-repeat;
+    
+  }
+
+/*List of nav bar */
+  #nav li {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+  }
+  #nav li a{
+    color: aliceblue;
+  }
+.navMenu a:hover {
+    color: #fddb3a;
+  } 
+
+/*Desgin of text h1*/
+h1{
+   color: #7a2048 ;
+   font-size: 70px;
+   font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    text-align: center;
+    
+    
+}
+/*page resume :table*/
+tr:hover{
+background-color: #7a2048;
+}
+th{
+  background-color: rgb(42, 42, 245);
+  color: rgb(238, 87, 243);
+}
+/*Button*/
+#button{
+    text-align: center;
+    font-size: 20px;
+    color: blanchedalmond;
+    background-color: rgb(81, 100, 211);
+    border-radius: 10px;
+}
+/*Footer */
+.footer{
+    background-image: url("img.png");
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+/*Style of image*/
+.image {
+    float: right;
+   
+}
+/*Style text h3*/
+h3{
+    font-style: italic;
+    display: inline;
+}
+/*Styl texte h5*/
+h5{
+    font-style: italic ;
+    color: #E15DD5;
+    font-size: 40px;
+    
+}
+
+/*Type of list */
+.list{
+  font-size: 20px;
+   list-style-type: none;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+/* text thanks */
+#thanks{
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    color: beige;
+}
+  
+  

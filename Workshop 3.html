@@ -1,69 +1,72 @@
 <html>
 <head>
     <title>Workshop</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icone" href="icone.png">
+  
 </head>
 <body>
-<div>
-    <nav>
-    
-        <ul>
-            <li>
-                <a href="#about">About </a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>  
-</nav>
-</div>
+    <!--page home with header-->
+    <header>
+        <div>
+            <img src="C:\Users\ASUS\workshop3/Internet.png" alt="IOT" width="120px">
+        </div>
+           
+            <nav id="navbar" >
+            
+                <ul id="nav">
+                    <li class="navMenu">
+                        <a href="#about">About </a>
+                    </li>
+                    <li class="navMenu">
+                        <a href="#work">Work</a>
+                    </li>
+                    <li class="navMenu">
+                        <a href="#resume">Resume</a>
+                    </li>
+                    <li class="navMenu">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <hr>
 <!-- section About -->
 <section id="about">
-    <div>
+    <div id="section1">
         <h1>About</h1>
-        <img src ="C:\Users\ASUS\workshop3/IoT.png" width="50%">
+        </div>
+        <div>
+        <img src ="https://itsocial.fr/wp-content/uploads/2020/07/IOT-image.jpg" width="100%" >
+        </div>
     </div>
 </section>
 </br>
 </br>
+<hr>
 <!--Section Work-->
 <section id="work">
-    <h1>Work</h1>
-
-        <div>
-            <h2></h2>
-            <select>
-                <option> What is IOT ?</option>
-                <option>What’s in It for You as a Contributor to the Internet of Things Growth?</option>
-                <option>Can IoT work without the Internet?</option>
-            </select>
+        <div id="section2">
+            <h1>Work</h1>
         </div>
     </br>
         <div>
             <h3>Internet of Things (IOT)</h3>
         
-        <p>
+        <p style="text-align: justify;">
             The internet of things, or IoT, is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
         </p>
-        </br> 
+        </br>
         
-    <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/LlhmzVL5bm8" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LlhmzVL5bm8" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
         </div>
     </br>
     <div>
-        <h4>What’s in It for You as a Contributor to the Internet of Things Growth?</h4>
-        <p>IT professionals who are interested in contributing to IoT or becoming an IoT engineer should look to develop the following skills:</p>
+        <h3>What’s in It for You as a Contributor to the Internet of Things Growth?</h3>
+        <p style="text-align: justify;">IT professionals who are interested in contributing to IoT or becoming an IoT engineer should look to develop the following skills:</p>
         <ul>
             <li>Computer programming</li>
             <li> security</li>
@@ -76,67 +79,175 @@
     </div>
     </br>
     <div>
-        <h4>Can IoT work without the Internet?</h4>
+        <h3>Can IoT work without the Internet?</h3>
     <!--definition of quation can i work without internet-->
-    <article>By their very nature, IoT devices work in tandem with other devices. Most IoT devices need a connection to function to their full potential by connecting to other IoT devices, however many will have limited functionality without access to the Internet. For example, an Alexa won’t play music without a connection to the Internet, but it will still allow you to set timers and alarms.
+    <article style="text-align: justify;">By their very nature, IoT devices work in tandem with other devices. Most IoT devices need a connection to function to their full potential by connecting to other IoT devices, however many will have limited functionality without access to the Internet. For example, an Alexa won’t play music without a connection to the Internet, but it will still allow you to set timers and alarms.
 
     </article>
 </div>
 </section>
 </br>
 </br>
+<hr>
 <!--Section Resume-->
 
 <section id="resume">
+    <div id="section3">
     <h1>Resume</h1>
+    <h3>Composants systèmes</h3>
+    <p>L'Internet des objets n'est pas une technologie mais un système de systèmes où l'intégration de tous les composants induit une complexité que l'interopérabilité diminue mais n'évite pas. La gestion des interfaces y est déterminante. 
+        Voici les principaux systèmes technologiques nécessaires au fonctionnement de l'IdO16 :</p>
+        <!--Tableau-->
     <table border="1" cellpadding="10" cellspacing="1" >
         <tr>
-            <th>Years</th>
-            <th>Statistique</th>
+            <th>Type de systèmes</th>
+            <th>Identification</th>
+            <th>Capteurs</th>
+            <th>Connexion</th>
+            <th>Intégration</th>
+            <th>Traitement de données</th>
+            <th>Réseaux</th>
         </tr>
         <tr>
-            <td>2019</td>
-            <td><a href="https://www.statista.com/statistics/1183457/iot-connected-devices-worldwide/">Statistics</td>
+            <td>Enjeux</td>
+            <td>Reconnaître chaque objet de façon unique et recueillir les données stockées au niveau de l'objet.</td>
+            <td>Recueillir des informations présentes dans l'environnement pour enrichir les fonctionnalités du dispositif.</td>
+            <td>Connecter les systèmes entre eux.</td>
+            <td>Intégrer les systèmes pour que les données soient transmises d'une couche à l'autre.</td>
+            <td>Stocker et analyser les données pour lancer des actions ou pour aider à la prise de décisions.</td>
+            <td>Transférer les données dans les mondes physiques et virtuels.</td>
         </tr>
-
+        <tr>
+            <td>Technologies anciennes</td>
+            <td>
+                <ul>
+                <li>radio-identification simple</li>
+                <li>code-barres</li>
+                <li>URI</li>
+                <li>GPS</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Luxmètre</li>
+                <li>capteur de proximité</li>
+                <li>thermomètre</li>
+                <li>hydromètre</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>câbles</li>
+                <li>radio</li>
+            </ul>
+        </td>
+        <td>middleware simples</td>
+        <td>
+            <ul>
+                <li>Base de données</li>
+                <li>tableur</li>
+                <li>Progiciel de gestion intégré</li>
+                <li>Gestion de la relation client</li>
+            </ul>
+        </td>
+        <td>Internet</td>
+        </tr>
+        <tr>
+            <td>Technologies récentes</td>
+            <td>
+                <ul>
+                    <li>radio-identification complexe</li>
+                    <li>onde acoustique de surface</li>
+                    <li>ADN</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Accéléromètre</li>
+                    <li>gyroscope</li>
+                    <li>capteurs miniaturisés</li>
+                    <li>nanotechnologies</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Bluetooth</li>
+                    <li>Wi-Fi</li>
+                    <li>ZigBee</li>
+                    <li>Z-Wave</li>
+                    <li>Communication en champ proche</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Middleware complexes</li>
+                    <li>Analyse decisionnelle des systemes complexes</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Entrepot de donnes 3D</li>
+                    <li>Web semantique</li>
+                </ul>
+            </td>
+            <td>EPC Global</td>
+        </tr>
     </table>
+    
+</div>
 </section>
 </br>
 </br>
+<hr>
 <!--Section Contact-->
 <section id="contact">
     <h1>Conact US</h1>
-        <form>
-        <label>Name:</label>
+    <form>
+        <br>
+        <label>First Name:</label>
+      <input type="text" name="first name" placeholder="Type your name here" />
+ 
+    <label>Last Name:</label>
       <input type="text" name="first name" placeholder="Type your name here" />
     </br>
     </br>
+    <label>Phone:</label>
+      <input type="number" name="first name" placeholder="+21625513819"/>
+ 
       <label>Email:</label>
       <input type="text" name="your name" placeholder="Type your name here" />
     </br>
     </br>
-      <label>Phone:</label>
-      <input type="number" name="first name"  />
+      <label>Password:</label>
+      <input type="number" name="Password" placeholder="Type your password here" />
     </br>
     </br>
-      <input type="submit" value="Submit" />
-        </form>
+      <input type="submit" value="Create Account" id="button" />
+    </form>
 
 </section>
+<hr>
+<!--Page footer-->
+<footer class="footer">
+<h1>Our services</h1>
 
-<footer>
-<h2>Our services</h3>
-    <ol>
-        <li><a href="https://iot-analytics.com/number-connected-iot-devices/">State of IoT 2022</a></li>
-        <li><a href="https://www.statista.com/study/49240/emobility---market-insights-and-data-analysis/">eMobility</a></li>
-        <li><a href="https://www.internetsociety.org/resources/doc/2019/keeping-your-workplace-safe-online/">Security Factsheet</a></li>
-    </ol>
+<div class="image">
+    <h5>Research</h5>
+    <img src="facebook.png" alt="facbook" width="50px">
+    <img src="instagram.png" alt="instagram" width="50px">
+    <img src="pinterest.png" alt="pinterest" width="50px">
+</div>
+<div class="site">
+    <h5 style="text-align:center;">Other site</h5>
+
+    <ul class="list">
+        <li  style="text-align: center;" ><a href="https://iot-analytics.com/number-connected-iot-devices/">State of IoT 2022</a></li>
+        <li  style="text-align: center;"><a href="https://www.statista.com/study/49240/emobility---market-insights-and-data-analysis/">eMobility</a></li>
+        <li  style="text-align: center;"><a href="https://www.internetsociety.org/resources/doc/2019/keeping-your-workplace-safe-online/">Security Factsheet</a></li>
+    </ul>
+</div>
+<h1 id="thanks">Thank you</h1>
+    
 </footer>
-
-   
-
-
-
-
 </body>
 </html>
